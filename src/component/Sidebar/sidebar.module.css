@@ -1,0 +1,47 @@
+.sidebar {
+  max-width: 264px;
+}
+
+.title {
+  margin: 10px 0 10px 0;
+}
+
+.title p {
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  max-height: 281px;
+  overflow: auto;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.nav::-webkit-scrollbar {
+  width: 10px;
+}
+
+.nav::-webkit-scrollbar-track {
+  background-color: #111;
+}
+
+.nav::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb);
+  border-radius: 10px;
+}
+
+.item_nav:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.sidebar_item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.underline {
+  text-decoration: underline !important;
+}

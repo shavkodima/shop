@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: 1274px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
